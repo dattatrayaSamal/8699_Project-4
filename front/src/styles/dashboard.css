@@ -1,0 +1,184 @@
+/* dashboard.css */
+
+/* body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: #333;
+  }
+   */
+  .dashboard {
+    max-width: 500px;
+    margin: 50px auto;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .dashboard h1 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  .user-card {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .user-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #007bff;
+  }
+  
+  .user-card h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #444444;
+  }
+  
+  .user-card p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #666666;
+    margin: 5px 0;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 10px;
+  }
+  
+  .buttons button {
+    flex: 1;
+    padding: 12px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .buttons button:hover {
+    transform: scale(1.05);
+  }
+  
+  .buttons button:nth-child(1) {
+    background-color: #007bff;
+  }
+  
+  .buttons button:nth-child(1):hover {
+    background-color: #0056b3;
+  }
+  
+  .buttons button:nth-child(2) {
+    background-color: #dc3545;
+  }
+  
+  .buttons button:nth-child(2):hover {
+    background-color: #b02a37;
+  }
+  
+  .buttons button:nth-child(3) {
+    background-color: #28a745;
+  }
+  
+  .buttons button:nth-child(3):hover {
+    background-color: #218838;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .dashboard {
+      max-width: 600px;
+      margin: 30px auto;
+    }
+  
+    .user-card img {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .dashboard h1 {
+      font-size: 24px;
+    }
+  
+    .user-card h2 {
+      font-size: 20px;
+    }
+  
+    .buttons button {
+      font-size: 13px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard {
+      max-width: 90%;
+      margin: 20px auto;
+    }
+  
+    .user-card img {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .dashboard h1 {
+      font-size: 22px;
+    }
+  
+    .user-card h2 {
+      font-size: 18px;
+    }
+  
+    .buttons button {
+      font-size: 12px;
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .dashboard {
+      padding: 15px;
+    }
+  
+    .user-card img {
+      width: 70px;
+      height: 70px;
+    }
+  
+    .dashboard h1 {
+      font-size: 20px;
+    }
+  
+    .user-card h2 {
+      font-size: 16px;
+    }
+  
+    .buttons {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .buttons button {
+      width: 100%;
+      font-size: 12px;
+      padding: 8px;
+    }
+  }
+  
